@@ -8,7 +8,7 @@ Resources:
    Handler: index.lambda_handler
    Description: cicd
    Runtime: python3.8
-   FunctionName: cicd2
+   FunctionName: cicd5
    CodeUri: ./src #Directory the source file is
    MemorySize: 128
    Timeout: 5
