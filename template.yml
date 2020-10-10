@@ -6,6 +6,14 @@ Resources:
   Type: AWS::Serverless::Function
   Properties:
    Handler: index.lambda_handler
+   Description: cicd
+   Tags: 
+     - Key: "provisionar"
+       Value: "tarrform"
+     - Key: "env"
+       Value: "prod"
    Runtime: python3.8
    FunctionName: cicd1
    CodeUri: ./src #Directory the source file is
+   MemorySize: 128
+   Timeout: 5
