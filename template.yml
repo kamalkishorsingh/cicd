@@ -5,7 +5,7 @@ Resources:
  SampleFunction:
   Type: AWS::Serverless::Function
   Properties:
-   Handler: index.py.lambda_handler
+   Handler: index.lambda_handler
    Runtime: python3.8
    FunctionName: cicd1
    CodeUri: ./src #Directory the source file is
