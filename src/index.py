@@ -3,4 +3,4 @@ import pandas as pd
 import json
 
 def lambda_handler(event, context):
-    return 'Success Job new cicd5 hello !!'
+    return 'Success Job new cicd5 !!'
