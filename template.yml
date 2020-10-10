@@ -7,11 +7,6 @@ Resources:
   Properties:
    Handler: index.lambda_handler
    Description: cicd
-   Tags: 
-     - Key: "provisionar"
-       Value: "tarrform"
-     - Key: "env"
-       Value: "prod"
    Runtime: python3.8
    FunctionName: cicd1
    CodeUri: ./src #Directory the source file is
