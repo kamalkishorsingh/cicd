@@ -5,7 +5,7 @@ phases:
    python: 3.7
  build: 
   commands:
-   - export BUCKET=kamal-code-shiv-free
+   - export BUCKET=kamal-code-shiv-free-free
    - sam package --s3-bucket $BUCKET --output-template-file outputtemplate.yml
 artifacts:
  type: zip
